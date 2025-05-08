@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Django Base</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/lib/bootstrap-5.0.2/css/bootstrap.min.css" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="../static/assets/css/style.css" crossorigin="anonymous">
+    </head>
+    <body>
+    <header></header>
+
+    <main>
+        {% block page_content %}{% endblock %}
+    </main>
+
+    <footer></footer>
+        
+    <script crossorigin="anonymous" src="../static/lib/jquery-3.6.4/jquery.js"></script>
+    <script crossorigin="anonymous" src="../static/lib/poper-2.10.2/poper.min.js"></script>
+    <script crossorigin="anonymous" src="../static/lib/bootstrap-5.0.2/js/bootstrap.min.js"></script>
+    <script crossorigin="anonymous" src="../static/assets/js/site.js"></script>
+    </body>
+</html>
+
+
+

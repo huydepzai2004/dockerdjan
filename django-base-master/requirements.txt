@@ -1,0 +1,9 @@
+# Base
+Django>=5.0.4,<6.0
+asgiref>=3.7.2,<4.0
+psycopg2-binary>=2.9.9,<3.0
+sqlparse>=0.4.4,<1.0
+django-cors-headers>=4.3.1,<5.0
+
+# Optional for autoreload (hot reload in Docker)
+watchdog>=3.0.0
