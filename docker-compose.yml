@@ -1,5 +1,4 @@
 version: '3.9'
-
 services:
   web:
     build:
@@ -18,7 +17,7 @@ services:
   migration:
     build:
       context: .
-      dockerfile: .devops/build/Dockerfile
+      dockerfile: ./build/Dockerfile
     container_name: django-migration
     command: python manage.py migrate --noinput
     volumes:
